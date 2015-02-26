@@ -4,20 +4,11 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   var Luke = {
-    name: 'Luke Skywalker',
-    address: {
-      street: '123 Skywalker Lane',
-      planet: 'Tatooine',
-      galaxy: 'Galactic Empire'
-    }
+    "name": "Luke Skywalker",
+    "address": "123 Skywalker Lane"
+  };
 
-  },
-  friends [
-
-  ]
-};
-
-  res.send('respond with a resource');
+  res.send(Luke);
 });
 
 module.exports = router;
