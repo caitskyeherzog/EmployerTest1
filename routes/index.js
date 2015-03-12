@@ -12,7 +12,7 @@ router.post('/', function(req, res, next) {
   res.json({
     message: "Post Working!",
     email: req.body.email,
-    username: req.body.email
+    username: req.body.username
     })
 });
 
