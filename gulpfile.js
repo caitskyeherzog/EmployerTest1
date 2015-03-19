@@ -3,7 +3,7 @@ var jshint = require('gulp-jshint');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
-"use strict";
+'use strict';
 
 gulp.task('vet', function() {
   return gulp.src('./routes/*.js')
