@@ -16,12 +16,14 @@
     "expect": "^1.6.0"
   },
   "devDependencies": {
+    "github-commit-stream": "^0.1.0",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
     "gulp-jshint": "^1.9.4",
     "gulp-mocha": "^2.0.0",
     "gulp-uglify": "^1.1.0",
     "jshint-stylish": "^1.0.1",
+    "superagent": "^1.2.0",
     "supertest": "^0.15.0"
   }
 }
